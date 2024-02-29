@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93%;
+}
+
+.form{
+    box-shadow: 0px 0px 4px grey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    height: 250px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form>div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form>div>input{
+    padding: 4px 5px;
+}
+
+
+.form>button{
+    width: 100%;
+    padding: 7px;
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+}

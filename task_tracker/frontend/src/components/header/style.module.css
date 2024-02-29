@@ -1,0 +1,9 @@
+.header{
+    height: 7%;
+    background-color: rebeccapurple;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
