@@ -3,14 +3,16 @@
     justify-content: center;
     align-items: center;
     height: 93%;
+    box-sizing: border-box;
 }
 
 .form{
+    font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0px 0px 4px grey;
-    padding: 10px 20px;
-    border-radius: 10px;
-    height: 250px;
-    width: 200px;
+    padding: 20px 25px;
+    /* border-radius: 10px; */
+    height: 280px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -19,19 +21,28 @@
 
 .form>div{
     display: flex;
-    width: 100%;
+    width:100%;
+    gap: 3px;
     flex-direction: column;
 }
 
+.form>div>label{
+    font-size: 15px;
+}
 .form>div>input{
-    padding: 4px 5px;
+    padding: 8px;
+}
+.form>div>input:focus{
+    outline: none;
 }
 
 
 .form>button{
     width: 100%;
-    padding: 7px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
     color: white;
-    background-color: dodgerblue;
+    background-image: linear-gradient(to left, red, purple);
     border: none;
 }

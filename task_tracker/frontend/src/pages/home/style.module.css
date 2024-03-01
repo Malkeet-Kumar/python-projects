@@ -1,0 +1,15 @@
+span{
+    border-radius: 5px;
+}
+
+.miniContext{
+    display: flex;
+    gap: 5px;
+}
+
+.miniContext>select{
+    padding: 3px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
